@@ -4,11 +4,11 @@
 ## Quick Links
 | ID | gen | solution | tests | statement | validator | config |
 | --- | --- | --- | --- | --- | --- | --- |
-| A | [gen](pA/gen) | [solution](pA/solution) | [tests](pA/tests) | [statement](pA/statement) [problem](pA/statement/index.md) | [validator](pA/validator) |[problem](pA/problem.json) [solutions](pA/solutions.json) [subtasks](pA/subtasks.json) |
-| B | [gen](pB/gen) | [solution](pB/solution) | [tests](pB/tests) | [statement](pB/statement) [problem](pB/statement/index.md) | [validator](pB/validator) | [problem](pB/problem.json) [solutions](pB/solutions.json) [subtasks](pB/subtasks.json) |
-| C | [gen](pC/gen) | [solution](pC/solution) | [tests](pC/tests) | [statement](pC/statement) [problem](pC/statement/index.md) | [validator](pC/validator) | [problem](pC/problem.json) [solutions](pC/solutions.json) [subtasks](pC/subtasks.json) |
-| D | [gen](pD/gen) | [solution](pD/solution) | [tests](pD/tests) | [statement](pD/statement) [problem](pD/statement/index.md) | [validator](pD/validator) | [problem](pD/problem.json) [solutions](pD/solutions.json) [subtasks](pD/subtasks.json) |
-| E | [gen](pE/gen) | [solution](pE/solution) | [tests](pE/tests) | [statement](pE/statement) [problem](pE/statement/index.md) | [validator](pE/validator) | [problem](pE/problem.json) [solutions](pE/solutions.json) [subtasks](pE/subtasks.json) |
+| A | [gen](pA/gen) [manual](pA/gen/manual) | [solution](pA/solution) | [tests](pA/tests) | [statement](pA/statement) [problem](pA/statement/index.md) | [validator](pA/validator) |[problem](pA/problem.json) [solutions](pA/solutions.json) [subtasks](pA/subtasks.json) |
+| B | [gen](pB/gen) [manual](pB/gen/manual) | [solution](pB/solution) | [tests](pB/tests) | [statement](pB/statement) [problem](pB/statement/index.md) | [validator](pB/validator) | [problem](pB/problem.json) [solutions](pB/solutions.json) [subtasks](pB/subtasks.json) |
+| C | [gen](pC/gen) [manual](pC/gen/manual) | [solution](pC/solution) | [tests](pC/tests) | [statement](pC/statement) [problem](pC/statement/index.md) | [validator](pC/validator) | [problem](pC/problem.json) [solutions](pC/solutions.json) [subtasks](pC/subtasks.json) |
+| D | [gen](pD/gen) [manual](pD/gen/manual) | [solution](pD/solution) | [tests](pD/tests) | [statement](pD/statement) [problem](pD/statement/index.md) | [validator](pD/validator) | [problem](pD/problem.json) [solutions](pD/solutions.json) [subtasks](pD/subtasks.json) |
+| E | [gen](pE/gen) [manual](pE/gen/manual) | [solution](pE/solution) | [tests](pE/tests) | [statement](pE/statement) [problem](pE/statement/index.md) | [validator](pE/validator) | [problem](pE/problem.json) [solutions](pE/solutions.json) [subtasks](pE/subtasks.json) |
 
  - [工作表](https://docs.google.com/spreadsheets/d/17PEQ_oS-DcYYq6Zb1K1xCGgk_Umw7lpL8D0ZURFSp80)
  - [初選題目](https://docs.google.com/document/d/1xUPYwP8rxR3-N-Q-A6PHnxAtn-7uoDqC3eyu7C5xjxg)
