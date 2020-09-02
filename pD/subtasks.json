@@ -1,0 +1,30 @@
+{
+    "global_validators": [],
+    "subtasks": {
+        "n10": {
+            "index": 1,
+            "score": 20,
+            "validators": []
+        },
+        "n15": {
+            "index": 2,
+            "score": 20,
+            "validators": []
+        },
+        "2times": {
+            "index": 3,
+            "score": 20,
+            "validators": []
+        },
+        "odd": {
+            "index": 4,
+            "score": 20,
+            "validators": []
+        },
+        "full": {
+            "index": 5,
+            "score": 20,
+            "validators": []
+        }
+    }
+}
