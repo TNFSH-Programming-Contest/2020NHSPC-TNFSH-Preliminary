@@ -8,7 +8,7 @@ all: $(EXECUTABLES)
 clean:
 	rm -f *.exe
 
-%.exe: %.cpp testlib.h
+%.exe: %.cpp
 	g++ -std=gnu++1y -Wall -Wextra -O2 $< -o $@
 
 compile_outputs_list:

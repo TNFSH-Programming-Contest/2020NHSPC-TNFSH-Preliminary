@@ -47,7 +47,7 @@ vector<int> dijkstra(int N, int ST)
     return dis;
 }
 
-signed main()
+signed main(int argc, char* argv[])
 {
     ios::sync_with_stdio(0);
     cin.tie(0);
