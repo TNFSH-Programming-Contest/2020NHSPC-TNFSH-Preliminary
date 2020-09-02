@@ -9,7 +9,7 @@ clean:
 	rm -f *.exe
 
 %.exe: %.cpp
-	g++ -std=gnu++1y -Wall -Wextra -O2 $< -o $@
+	g++ -DEVAL -std=gnu++14 -O2 -pipe -static -Wall -Wextra $< -o $@
 
 compile_outputs_list:
 	@echo $(COMPILE_OUTPUTS)
