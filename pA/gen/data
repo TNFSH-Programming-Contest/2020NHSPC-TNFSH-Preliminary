@@ -1,0 +1,28 @@
+@subtask 1
+manual 1/0.in
+manual 1/1.in
+manual 1/2.in
+manual 1/3.in
+manual 1/4.in
+
+@subtask 2
+manual 2/0.in
+manual 2/1.in
+manual 2/2.in
+manual 2/3.in
+manual 2/4.in
+
+@subtask 3
+manual 3/0.in
+manual 3/1.in
+manual 3/2.in
+manual 3/3.in
+manual 3/4.in
+
+@subtask 4
+manual 4/0.in
+manual 4/1.in
+manual 4/2.in
+manual 4/3.in
+manual 4/4.in
+manual 4/5.in
