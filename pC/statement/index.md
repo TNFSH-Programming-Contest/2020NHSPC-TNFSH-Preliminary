@@ -1,5 +1,5 @@
 # C
-**Time Limit**
+**Time Limit : 1.0s / Memory Limit : 512MB**
 
 有一顆 N 個點的生成樹。
 接下來有 M 筆詢問，對於每個詢問 Qi 必須回答樹上有多少路徑不包含編號為 Qi 的點。
