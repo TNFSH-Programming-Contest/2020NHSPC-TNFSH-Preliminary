@@ -1,5 +1,5 @@
 # C
-**Time Limit : 1.0s / Memory Limit : 512MB**
+**Time Limit : 1.0s / Memory Limit : 512 MiB**
 
 有一顆 $N$ 個點的生成樹。
 接下來有 $M$ 筆詢問，第 $i$ 筆有一個數字 $Q_i$，必須回答樹上有多少**有向路徑**不包含編號為 $Q_i$ 的點。$Q_i$ 不會重複。

@@ -1,5 +1,5 @@
 # E
-**Time Limit : 2.0s / Memory Limit : 512MB**
+**Time Limit : 2.0s / Memory Limit : 512 MiB**
 
 有一張 $N$ 個點的連通無向圖，上面有 $M$ 條邊 $(u_i,~v_i,~w_i)$。
 定義路徑的長度 = $A~\cdot$ 路徑上的邊數 + $B~\cdot$ 路徑上的邊權總和

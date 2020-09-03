@@ -1,5 +1,5 @@
 # B
-**Time Limit : 1.0s / Memory Limit : 512MB**
+**Time Limit : 1.0s / Memory Limit : 512 MiB**
 
 有 $N$ 個人要爬 $K$ 層樓梯。
 每個人一開始都在第 $0$ 層，且第 $i$ 個人會每秒上升 $a_i$ 層。

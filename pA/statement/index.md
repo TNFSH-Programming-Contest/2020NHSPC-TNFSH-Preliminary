@@ -1,5 +1,5 @@
 # A
-**Time Limit : 1.0s / Memory Limit : 512MB**
+**Time Limit : 1.0s / Memory Limit : 512 MiB**
 
 有一個長度為 N 的陣列 a。
 要執行 M 次操作，每次操作要依序完成以下 2 個任務:
