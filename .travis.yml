@@ -16,7 +16,6 @@ install:
   - cd tps
   - sudo ./install-tps.sh
 script:
-  - ls
-  - pwd
+  - cd ..
   - cd pA
   - tps statement
