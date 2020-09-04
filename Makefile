@@ -38,3 +38,27 @@ pE-check:
 	cd pE && tps invoke solution/pE.cpp | tee -a solutions-check.txt
 	cd pE && echo "100pt-by-Yazmau.cpp" >> solutions-check.txt
 	cd pE && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
+
+pA-statement:
+	cd pA && tps statement
+pB-statement:
+	cd pB && tps statement
+pC-statement:
+	cd pC && tps statement
+pD-statement:
+	cd pD && tps statement
+pE-statement:
+	cd pE && tps statement
+
+statement-all:
+	if [ ! -d statement ]; then mkdir statement; fi
+	cd pA && tps statement
+	cd pB && tps statement
+	cd pC && tps statement
+	cd pD && tps statement
+	cd pE && tps statement
+	cp pA/statement/index.pdf statement/pA.pdf
+	cp pB/statement/index.pdf statement/pB.pdf
+	cp pC/statement/index.pdf statement/pC.pdf
+	cp pD/statement/index.pdf statement/pD.pdf
+	cp pE/statement/index.pdf statement/pE.pdf
