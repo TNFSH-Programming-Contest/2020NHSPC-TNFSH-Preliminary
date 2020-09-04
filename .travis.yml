@@ -24,6 +24,6 @@ cache:
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
-  file: "statement/*"
+  file: statement/*
   skip_cleanup: true
   draft: true
