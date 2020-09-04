@@ -4,5 +4,8 @@
 	},
 	"pA_lazyBIT.cpp": {
 		"verdict": "time_limit"
+	},
+	"100pt-by-Yazmau.cpp": {
+		"verdict": "correct"
 	}
 }

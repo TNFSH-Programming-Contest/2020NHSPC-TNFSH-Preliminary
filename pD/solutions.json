@@ -1,5 +1,8 @@
 {
 	"stan.cpp": {
 		"verdict": "model_solution"
+	},
+	"100pt-by-Yazmau.cpp": {
+		"verdict": "correct"
 	}
 }
