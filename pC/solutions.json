@@ -2,4 +2,8 @@
 	"pC.cpp": {
 		"verdict": "model_solution"
 	}
+	
+	"pC_online.cpp": {
+		"verdict": "correct"
+	}
 }
