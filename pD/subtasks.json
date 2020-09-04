@@ -3,32 +3,32 @@
     "subtasks": {
         "n10": {
             "index": 1,
-            "score": 20,
             "text": "$1 \\le N \\le 10$，$1 \\le V_i \\le 10^6$",
+            "score": 9,
             "validators": []
         },
         "n15": {
             "index": 2,
-            "score": 20,
             "text": "$1 \\le N \\le 15$，$1 \\le V_i \\le 10^6$",
+            "score": 22,
             "validators": []
         },
         "2times": {
             "index": 3,
-            "score": 20,
             "text": "$1 \\le V_i \\le 10^6$，每種文字最多出現 $2$ 次",
+            "score": 14,
             "validators": []
         },
         "odd": {
             "index": 4,
-            "score": 20,
             "text": "最多 $1$ 種文字出現奇數次",
+            "score": 20,
             "validators": []
         },
         "full": {
             "index": 5,
-            "score": 20,
             "text": "無特殊限制",
+            "score": 35,
             "validators": []
         }
     }

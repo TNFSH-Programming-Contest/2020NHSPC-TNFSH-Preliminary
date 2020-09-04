@@ -3,32 +3,32 @@
     "subtasks": {
         "1": {
             "index": 1,
-            "score": 20,
             "text": "$M = 0$",
+            "score": 6,
             "validators": []
         },
         "2": {
             "index": 2,
-            "score": 20,
             "text": "$1 \\le N \\le 10^3,~1 \\le K \\le 10^3$",
+            "score": 17,
             "validators": []
         },
         "3": {
             "index": 3,
-            "score": 20,
             "text": "$a_i = 1,~b_i = 1,~1 \\le K \\le 10^6$",
+            "score": 5,
             "validators": []
         },
         "4": {
             "index": 4,
-            "score": 20,
             "text": "$M \\le 10^5$",
+            "score": 24,
             "validators": []
         },
         "5": {
             "index": 5,
-            "score": 20,
             "text": "無特殊限制",
+            "score": 48,
             "validators": []
         }
     }

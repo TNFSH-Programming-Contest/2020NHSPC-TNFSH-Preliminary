@@ -1,8 +1,8 @@
 {
 	"contest_name": "2020臺南一中資訊學科能力競賽校內初選",
 	"problem_label": "C",
-	"name": "C",
-	"code": "C",
+	"name": "20pre-pC",
+	"code": "20pre-pC",
 	"title": "pC",
 	"memory_limit": 512,
 	"time_limit": 1.0,
@@ -19,6 +19,7 @@
 	"score_mode": "max_subtask",
 	"task_type": "Batch",
 	"task_type_params": "{\"task_type_parameters_Batch_compilation\": \"alone\"}",
+	"has_checker": false,
 	"ignore_checker": true,
 	"score_type": "GroupMin"
 }
