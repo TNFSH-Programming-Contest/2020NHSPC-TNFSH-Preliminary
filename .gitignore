@@ -1,5 +1,7 @@
 *.pdf
 __pycache__/
+sandbox/
+logs/
 
 # C binaries
 *.exe
