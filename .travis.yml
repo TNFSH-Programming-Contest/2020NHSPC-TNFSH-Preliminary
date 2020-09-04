@@ -19,12 +19,13 @@ script:
   - cd ..
   - cd pA
   - tps statement
+  - cd ..
 cache:
   directories:
     - ~/.fonts/
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
-  file: "*"
+  file: "pA/statement/index.pdf"
   skip_cleanup: true
   draft: true
