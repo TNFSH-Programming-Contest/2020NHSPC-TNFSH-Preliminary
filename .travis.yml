@@ -1,0 +1,21 @@
+language: python
+
+before_install:
+  - sudo apt-get update
+
+install:
+  - wget https://github.com/jgm/pandoc/releases/download/2.10.1/pandoc-2.10.1-1-amd64.deb
+  - sudo dpkg -i pandoc-2.10.1-1-amd64.deb
+  - sudo apt-get install texlive-xetex
+  - sudo apt-get install poppler-utils
+  - wget https://noto-website-2.storage.googleapis.com/pkgs/Noto-hinted.zip
+  - unzip Noto-hinted.zip
+  - mkdir -p ~/.fonts
+  - cp *otf *otc ~/.fonts
+  - fc-cache -f -v 
+  - git clone https://github.com/ioi-2017/tps.git
+  - cd tps
+  - sudo ./install-tps.sh
+script:
+  - cd pA
+  - tps statement
