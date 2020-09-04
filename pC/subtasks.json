@@ -4,26 +4,31 @@
         "1": {
             "index": 1,
             "score": 20,
+            "text": "$1 \\le N \\le 100,~M = 1$",
             "validators": []
         },
         "2": {
             "index": 2,
             "score": 20,
+            "text": "$1$ ~ $N$ 依序組成一條鏈",
             "validators": []
         },
         "3": {
             "index": 3,
             "score": 20,
+            "text": "$1 \\le N \\le 200,~1 \\le M \\le 200$",
             "validators": []
         },
         "4": {
             "index": 4,
             "score": 20,
+            "text": "$1 \\le N \\le 2000,~1 \\le M \\le 2000$",
             "validators": []
         },
         "5": {
             "index": 5,
             "score": 20,
+            "text": "無特殊限制",
             "validators": []
         }
     }
