@@ -2,4 +2,8 @@
 	"pA.cpp": {
 		"verdict": "model_solution"
 	}
+	
+	"pA_lazyBIT.cpp": {
+		"verdict": "time_limit"
+	}
 }
