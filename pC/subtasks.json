@@ -3,27 +3,27 @@
     "subtasks": {
         "1": {
             "index": 1,
-            "score": 20,
+            "score": 8,
             "validators": []
         },
         "2": {
             "index": 2,
-            "score": 20,
+            "score": 16,
             "validators": []
         },
         "3": {
             "index": 3,
-            "score": 20,
+            "score": 13,
             "validators": []
         },
         "4": {
             "index": 4,
-            "score": 20,
+            "score": 21,
             "validators": []
         },
         "5": {
             "index": 5,
-            "score": 20,
+            "score": 42,
             "validators": []
         }
     }

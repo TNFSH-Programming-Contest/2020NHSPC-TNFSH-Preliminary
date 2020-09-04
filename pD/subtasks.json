@@ -3,17 +3,17 @@
     "subtasks": {
         "n10": {
             "index": 1,
-            "score": 20,
+            "score": 9,
             "validators": []
         },
         "n15": {
             "index": 2,
-            "score": 20,
+            "score": 22,
             "validators": []
         },
         "2times": {
             "index": 3,
-            "score": 20,
+            "score": 14,
             "validators": []
         },
         "odd": {
@@ -23,7 +23,7 @@
         },
         "full": {
             "index": 5,
-            "score": 20,
+            "score": 35,
             "validators": []
         }
     }
