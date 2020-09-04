@@ -3,5 +3,14 @@ __pycache__/
 
 # C binaries
 *.exe
-*.out
 *.o
+
+pA/tests/*.in
+pB/tests/*.in
+pB/tests/*.out
+pC/tests/*.in
+pC/tests/*.out
+pD/tests/*.in
+pD/tests/*.out
+pE/tests/*.in
+pE/tests/*.out
