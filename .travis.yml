@@ -2,12 +2,11 @@ language: python
 
 before_install:
   - sudo apt-get update
-  - sudo add-apt-repository ppa:texlive-backports/ppa
 
 install:
   - wget https://github.com/jgm/pandoc/releases/download/2.10.1/pandoc-2.10.1-1-amd64.deb
   - sudo dpkg -i pandoc-2.10.1-1-amd64.deb
-  - sudo apt-get install -y texlive-full texlive-xetex lmodern
+  - sudo apt-get install -y texlive-generic-recommended texlive-xetex lmodern
   - sudo apt-get install -y poppler-utils
   - wget https://noto-website-2.storage.googleapis.com/pkgs/Noto-hinted.zip
   - mkdir -p ~/.fonts
