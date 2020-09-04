@@ -9,9 +9,8 @@ install:
   - sudo apt-get install texlive-xetex
   - sudo apt-get install poppler-utils
   - wget https://noto-website-2.storage.googleapis.com/pkgs/Noto-hinted.zip
-  - unzip Noto-hinted.zip
   - mkdir -p ~/.fonts
-  - cp *otf *otc ~/.fonts
+  - unzip Noto-hinted.zip -d ~/.fonts/
   - fc-cache -f -v 
   - git clone https://github.com/ioi-2017/tps.git
   - cd tps
