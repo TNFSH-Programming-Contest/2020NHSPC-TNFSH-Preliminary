@@ -1,59 +1,59 @@
 @subtask n10
-GEN1 95995 0
-GEN1 19186 1
-GEN1 73888 2
-GEN1 78604 3
-GEN1 60540 4
-GEN1 45789 5
-GEN1 91760 6
-GEN1 54054 7
-GEN1 17229 8
-GEN1 77298 9
+manual 01_0000.in
+manual 01_0001.in
+manual 01_0002.in
+manual 01_0003.in
+manual 01_0004.in
+manual 01_0005.in
+manual 01_0006.in
+manual 01_0007.in
+manual 01_0008.in
+manual 01_0009.in
 
 @subtask n15
-GEN2 73236 0
-GEN2 25469 1
-GEN2 05569 2
-GEN2 28929 3
-GEN2 46110 4
-GEN2 22615 5
-GEN2 70811 6
-GEN2 66075 7
-GEN2 18635 8
-GEN2 46040 9
+manual 02_0000.in
+manual 02_0001.in
+manual 02_0002.in
+manual 02_0003.in
+manual 02_0004.in
+manual 02_0005.in
+manual 02_0006.in
+manual 02_0007.in
+manual 02_0008.in
+manual 02_0009.in
 
 @subtask 2times
-GEN3 06264 0
-GEN3 49973 1
-GEN3 85048 2
-GEN3 05304 3
-GEN3 08121 4
-GEN3 95960 5
-GEN3 19173 6
-GEN3 06125 7
-GEN3 70909 8
-GEN3 67025 9
+manual 03_0000.in
+manual 03_0001.in
+manual 03_0002.in
+manual 03_0003.in
+manual 03_0004.in
+manual 03_0005.in
+manual 03_0006.in
+manual 03_0007.in
+manual 03_0008.in
+manual 03_0009.in
 
 @subtask odd
-GEN4 88675 0
-GEN4 08586 1
-GEN4 21511 2
-GEN4 02619 3
-GEN4 33003 4
-GEN4 49914 5
-GEN4 73413 6
-GEN4 97682 7
-GEN4 11663 8
-GEN4 15010 9
+manual 04_0000.in
+manual 04_0001.in
+manual 04_0002.in
+manual 04_0003.in
+manual 04_0004.in
+manual 04_0005.in
+manual 04_0006.in
+manual 04_0007.in
+manual 04_0008.in
+manual 04_0009.in
 
 @subtask full
-GEN5 99350 0
-GEN5 46663 1
-GEN5 15253 2
-GEN5 74625 3
-GEN5 34861 4
-GEN5 58624 5
-GEN5 96358 6
-GEN5 52560 7
-GEN5 09075 8
-GEN5 21774 9
+manual 05_0000.in
+manual 05_0001.in
+manual 05_0002.in
+manual 05_0003.in
+manual 05_0004.in
+manual 05_0005.in
+manual 05_0006.in
+manual 05_0007.in
+manual 05_0008.in
+manual 05_0009.in

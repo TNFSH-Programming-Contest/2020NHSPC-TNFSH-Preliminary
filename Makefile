@@ -47,8 +47,8 @@ pD:
 
 pD-check:
 	cd pD && > solutions-check.txt
-	cd pD && echo "pD.cpp" >> solutions-check.txt
-	cd pD && tps invoke solution/pD.cpp | tee -a solutions-check.txt
+	cd pD && echo "stan.cpp" >> solutions-check.txt
+	cd pD && tps invoke solution/stan.cpp | tee -a solutions-check.txt
 	cd pD && echo "100pt-by-Yazmau.cpp" >> solutions-check.txt
 	cd pD && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
