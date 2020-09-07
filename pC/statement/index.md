@@ -19,6 +19,7 @@
 
 ## 輸入限制
 - $1 \le N \le 2 \cdot 10^5$
+- $1 \le a,~b \le 10^5$
 - $1 \le M \le 2 \cdot 10^5$
 - $1 \le Q_i \le N$
 
