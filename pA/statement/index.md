@@ -1,7 +1,10 @@
 # 哥布林
 
-　　　　　![](img.jpg){ width=500px }  
-　　　　　　　　　　　　　　　圖：千金劍士使用雷電魔法  
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{img.jpg}
+\caption{千金劍士使用雷電魔法}
+\end{figure}
 
 從前從前，有一個偏遠的小鎮，小鎮時常遭到怪物哥布林的襲擊，而有一位冒險者不做其他任務，只討伐哥布林，而被稱為「哥布林殺手」。  
 　　「先是一隻」  
