@@ -1,9 +1,9 @@
 {
 	"contest_name": "2020臺南一中資訊學科能力競賽校內初選",
 	"problem_label": "A",
-	"name": "20pre-pA",
-	"code": "20pre-pA",
-	"title": "pA",
+	"name": "Goblin",
+	"code": "Goblin",
+	"title": "哥布林",
 	"memory_limit": 512,
 	"time_limit": 1.0,
 	"type": "Batch",

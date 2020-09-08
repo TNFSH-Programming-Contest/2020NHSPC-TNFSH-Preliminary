@@ -4,7 +4,7 @@
 ## Quick Links
 | ID | gen | solution | tests | statement | validator | config |
 | --- | --- | --- | --- | --- | --- | --- |
-| A | [gen](pA/gen) [manual](pA/gen/manual) | [solution](pA/solution) [check](pA/solutions-check.txt) | [tests](pA/tests) | [statement](pA/statement) [problem](pA/statement/index.md) | [validator](pA/validator) |[problem](pA/problem.json) [solutions](pA/solutions.json) [subtasks](pA/subtasks.json) |
+| A. 哥布林 | [gen](pA/gen) [manual](pA/gen/manual) | [solution](pA/solution) [check](pA/solutions-check.txt) | [tests](pA/tests) | [statement](pA/statement) [problem](pA/statement/index.md) | [validator](pA/validator) |[problem](pA/problem.json) [solutions](pA/solutions.json) [subtasks](pA/subtasks.json) |
 | B | [gen](pB/gen) [manual](pB/gen/manual) | [solution](pB/solution) [check](pB/solutions-check.txt) | [tests](pB/tests) | [statement](pB/statement) [problem](pB/statement/index.md) | [validator](pB/validator) | [problem](pB/problem.json) [solutions](pB/solutions.json) [subtasks](pB/subtasks.json) |
 | C | [gen](pC/gen) [manual](pC/gen/manual) | [solution](pC/solution) [check](pC/solutions-check.txt) | [tests](pC/tests) | [statement](pC/statement) [problem](pC/statement/index.md) | [validator](pC/validator) | [problem](pC/problem.json) [solutions](pC/solutions.json) [subtasks](pC/subtasks.json) |
 | D | [gen](pD/gen) [manual](pD/gen/manual) | [solution](pD/solution) [check](pD/solutions-check.txt) | [tests](pD/tests) | [statement](pD/statement) [problem](pD/statement/index.md) | [validator](pD/validator) | [problem](pD/problem.json) [solutions](pD/solutions.json) [subtasks](pD/subtasks.json) |
