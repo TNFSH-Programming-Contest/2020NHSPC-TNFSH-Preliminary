@@ -1,9 +1,9 @@
 {
 	"contest_name": "2020臺南一中資訊學科能力競賽校內初選",
 	"problem_label": "B",
-	"name": "20pre-pB",
-	"code": "20pre-pB",
-	"title": "pB",
+	"name": "Prom",
+	"code": "Prom",
+	"title": "舞會",
 	"memory_limit": 512,
 	"time_limit": 1.0,
 	"type": "Batch",
