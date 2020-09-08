@@ -8,7 +8,7 @@
 | B. 舞會 | [gen](pB/gen) [manual](pB/gen/manual) | [solution](pB/solution) [check](pB/solutions-check.txt) | [tests](pB/tests) | [statement](pB/statement) [problem](pB/statement/index.md) | [validator](pB/validator) | [problem](pB/problem.json) [solutions](pB/solutions.json) [subtasks](pB/subtasks.json) |
 | C. 車站 | [gen](pC/gen) [manual](pC/gen/manual) | [solution](pC/solution) [check](pC/solutions-check.txt) | [tests](pC/tests) | [statement](pC/statement) [problem](pC/statement/index.md) | [validator](pC/validator) | [problem](pC/problem.json) [solutions](pC/solutions.json) [subtasks](pC/subtasks.json) |
 | D. 大楓樹 | [gen](pD/gen) [manual](pD/gen/manual) | [solution](pD/solution) [check](pD/solutions-check.txt) | [tests](pD/tests) | [statement](pD/statement) [problem](pD/statement/index.md) | [validator](pD/validator) | [problem](pD/problem.json) [solutions](pD/solutions.json) [subtasks](pD/subtasks.json) |
-| E | [gen](pE/gen) [manual](pE/gen/manual) | [solution](pE/solution) [check](pE/solutions-check.txt) | [tests](pE/tests) | [statement](pE/statement) [problem](pE/statement/index.md) | [validator](pE/validator) | [problem](pE/problem.json) [solutions](pE/solutions.json) [subtasks](pE/subtasks.json) |
+| E. 熊本 | [gen](pE/gen) [manual](pE/gen/manual) | [solution](pE/solution) [check](pE/solutions-check.txt) | [tests](pE/tests) | [statement](pE/statement) [problem](pE/statement/index.md) | [validator](pE/validator) | [problem](pE/problem.json) [solutions](pE/solutions.json) [subtasks](pE/subtasks.json) |
 
  - [工作表](https://docs.google.com/spreadsheets/d/17PEQ_oS-DcYYq6Zb1K1xCGgk_Umw7lpL8D0ZURFSp80)
  - [初選題目](https://docs.google.com/document/d/1xUPYwP8rxR3-N-Q-A6PHnxAtn-7uoDqC3eyu7C5xjxg)
