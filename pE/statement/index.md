@@ -1,5 +1,11 @@
 # 熊本
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{img.jpg}
+\caption{夏奈向警察問路}
+\end{figure}
+
 在2016年熊本地震過後，夏奈為了尋找失聯的朋友伊月，而踏上了旅程。  
 夏奈終於來到伊月所居住的城市，但她不知道伊月在哪，於是她決定搭捷運來探索這種城市。  
 這座城市的捷運總共有 $N$ 站，$M$ 條鐵道連接兩個車站。  

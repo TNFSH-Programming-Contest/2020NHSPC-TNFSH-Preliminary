@@ -1,5 +1,11 @@
 # 大楓樹
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=5in]{img.jpg}
+\caption{大楓樹公會的成員計畫著要尋寶}
+\end{figure}
+
 今天梅普露又在NewWorld Online遊戲裡帶領大楓樹公會的成員到地下城尋寶。  
 他們來到了一扇用特殊魔法鎖住的門前。  
 門上面有 $N$ 個方塊，每個方塊上面都有一個整數。  
