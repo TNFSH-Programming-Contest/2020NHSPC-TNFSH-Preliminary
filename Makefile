@@ -13,6 +13,8 @@ pA-check:
 	cd pA && tps invoke solution/pA_lazyBIT.cpp | tee -a solutions-check.txt
 	cd pA && echo "100pt-by-Yazmau.cpp" >> solutions-check.txt
 	cd pA && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
+	cd pA && echo "xiplus.cpp" >> solutions-check.txt
+	cd pA && tps invoke solution/xiplus.cpp | tee -a solutions-check.txt
 
 pB:
 	cd pB && tps statement
