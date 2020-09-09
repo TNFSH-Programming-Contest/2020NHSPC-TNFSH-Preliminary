@@ -1,29 +1,39 @@
 {
-    "global_validators": [],
+    "global_validators": [
+        "validator.cpp"
+    ],
     "subtasks": {
         "n10": {
             "index": 1,
             "text": "$1 \\le N \\le 10$，$1 \\le V_i \\le 10^6$",
             "score": 9,
-            "validators": []
+            "validators": [
+                "validator-1.cpp"
+            ]
         },
         "n15": {
             "index": 2,
             "text": "$1 \\le N \\le 15$，$1 \\le V_i \\le 10^6$",
             "score": 22,
-            "validators": []
+            "validators": [
+                "validator-2.cpp"
+            ]
         },
         "2times": {
             "index": 3,
             "text": "$1 \\le V_i \\le 10^6$，每種文字最多出現 $2$ 次",
             "score": 14,
-            "validators": []
+            "validators": [
+                "validator-3.cpp"
+            ]
         },
         "odd": {
             "index": 4,
             "text": "最多 $1$ 種文字出現奇數次",
             "score": 20,
-            "validators": []
+            "validators": [
+                "validator-4.cpp"
+            ]
         },
         "full": {
             "index": 5,
