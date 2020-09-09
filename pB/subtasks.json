@@ -1,29 +1,39 @@
 {
-    "global_validators": [],
+    "global_validators": [
+        "validator.cpp"
+    ],
     "subtasks": {
         "1": {
             "index": 1,
             "text": "$M = 0$",
             "score": 6,
-            "validators": []
+            "validators": [
+                "validator-1.cpp"
+            ]
         },
         "2": {
             "index": 2,
             "text": "$1 \\le N \\le 10^3,~1 \\le K \\le 10^3$",
             "score": 17,
-            "validators": []
+            "validators": [
+                "validator-2.cpp"
+            ]
         },
         "3": {
             "index": 3,
             "text": "$a_i = 1,~b_i = 1,~1 \\le K \\le 10^6$",
             "score": 5,
-            "validators": []
+            "validators": [
+                "validator-3.cpp"
+            ]
         },
         "4": {
             "index": 4,
             "text": "$M \\le 10^5$",
             "score": 24,
-            "validators": []
+            "validators": [
+                "validator-4.cpp"
+            ]
         },
         "5": {
             "index": 5,
