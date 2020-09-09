@@ -1,29 +1,39 @@
 {
-    "global_validators": [],
+    "global_validators": [
+        "validator.cpp"
+    ],
     "subtasks": {
         "1": {
             "index": 1,
             "text": "$B = 0$",
             "score": 7,
-            "validators": []
+            "validators": [
+                "validator-1.cpp"
+            ]
         },
         "2": {
             "index": 2,
             "text": "$M = N - 1$",
             "score": 15,
-            "validators": []
+            "validators": [
+                "validator-2.cpp"
+            ]
         },
         "3": {
             "index": 3,
             "text": "$A = 0,~1 \\le N \\le 100$",
             "score": 18,
-            "validators": []
+            "validators": [
+                "validator-3.cpp"
+            ]
         },
         "4": {
             "index": 4,
             "text": "$1 \\le N \\le 10^3,~1 \\le M \\le 5 \\cdot 10^3$",
             "score": 29,
-            "validators": []
+            "validators": [
+                "validator-4.cpp"
+            ]
         },
         "5": {
             "index": 5,
