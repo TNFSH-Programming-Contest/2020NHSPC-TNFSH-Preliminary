@@ -5,7 +5,7 @@
 	"code": "Goblin",
 	"title": "哥布林",
 	"memory_limit": 512,
-	"time_limit": 1.0,
+	"time_limit": 1.5,
 	"type": "Batch",
 	"description": "",
 	"tps_web_url": "",
