@@ -1,9 +1,7 @@
 nothing:
 
-pA:
-	cd pA && tps statement
-	cd pA && tps gen --no-gen
-	cmsImportTask -c 2 ./pA/ -u
+pA-import:
+	cmsImportTask -c 2 ./pA/ -u -S
 
 pA-check:
 	cd pA && > solutions-check.txt
@@ -16,10 +14,8 @@ pA-check:
 	cd pA && echo "xiplus.cpp" >> solutions-check.txt
 	cd pA && tps invoke solution/xiplus.cpp | tee -a solutions-check.txt
 
-pB:
-	cd pB && tps statement
-	cd pB && tps gen --no-gen
-	cmsImportTask -c 2 ./pB/ -u
+pB-import:
+	cmsImportTask -c 2 ./pB/ -u -S
 
 pB-check:
 	cd pB && > solutions-check.txt
@@ -28,10 +24,8 @@ pB-check:
 	cd pB && echo "100pt-by-Yazmau.cpp" >> solutions-check.txt
 	cd pB && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
-pC:
-	cd pC && tps statement
-	cd pC && tps gen --no-gen
-	cmsImportTask -c 2 ./pC/ -u
+pC-import:
+	cmsImportTask -c 2 ./pC/ -u -S
 
 pC-check:
 	cd pC && > solutions-check.txt
@@ -42,10 +36,8 @@ pC-check:
 	cd pC && echo "100pt-by-Yazmau.cpp" >> solutions-check.txt
 	cd pC && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
-pD:
-	cd pD && tps statement
-	cd pD && tps gen --no-gen
-	cmsImportTask -c 2 ./pD/ -u
+pD-import:
+	cmsImportTask -c 2 ./pD/ -u -S
 
 pD-check:
 	cd pD && > solutions-check.txt
@@ -54,10 +46,8 @@ pD-check:
 	cd pD && echo "100pt-by-Yazmau.cpp" >> solutions-check.txt
 	cd pD && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
-pE:
-	cd pE && tps statement
-	cd pE && tps gen --no-gen
-	cmsImportTask -c 2 ./pE/ -u
+pE-import:
+	cmsImportTask -c 2 ./pE/ -u -S
 
 pE-check:
 	cd pE && > solutions-check.txt
@@ -67,11 +57,11 @@ pE-check:
 	cd pE && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
 import:
-	cmsImportTask -c 2 ./pA/ -u
-	cmsImportTask -c 2 ./pB/ -u
-	cmsImportTask -c 2 ./pC/ -u
-	cmsImportTask -c 2 ./pD/ -u
-	cmsImportTask -c 2 ./pE/ -u
+	cmsImportTask -c 2 ./pA/ -u -S
+	cmsImportTask -c 2 ./pB/ -u -S
+	cmsImportTask -c 2 ./pC/ -u -S
+	cmsImportTask -c 2 ./pD/ -u -S
+	cmsImportTask -c 2 ./pE/ -u -S
 
 merge-pdf:
 	pdfunite pA/statement/index.pdf pB/statement/index.pdf pC/statement/index.pdf pD/statement/index.pdf pE/statement/index.pdf problems.pdf
@@ -81,12 +71,16 @@ merge-pdf:
 
 pA-statement:
 	cd pA && tps statement
+
 pB-statement:
 	cd pB && tps statement
+
 pC-statement:
 	cd pC && tps statement
+
 pD-statement:
 	cd pD && tps statement
+
 pE-statement:
 	cd pE && tps statement
 
