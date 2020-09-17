@@ -1,7 +1,7 @@
 nothing:
 
 pA-import:
-	cmsImportTask -c 2 ./pA/ -u -S
+	cmsImportTask -c 2 ./pA/ -u
 
 pA-check:
 	cd pA && > solutions-check.txt
@@ -15,7 +15,7 @@ pA-check:
 	cd pA && tps invoke solution/xiplus.cpp | tee -a solutions-check.txt
 
 pB-import:
-	cmsImportTask -c 2 ./pB/ -u -S
+	cmsImportTask -c 2 ./pB/ -u
 
 pB-check:
 	cd pB && > solutions-check.txt
@@ -25,7 +25,7 @@ pB-check:
 	cd pB && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
 pC-import:
-	cmsImportTask -c 2 ./pC/ -u -S
+	cmsImportTask -c 2 ./pC/ -u
 
 pC-check:
 	cd pC && > solutions-check.txt
@@ -37,7 +37,7 @@ pC-check:
 	cd pC && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
 pD-import:
-	cmsImportTask -c 2 ./pD/ -u -S
+	cmsImportTask -c 2 ./pD/ -u
 
 pD-check:
 	cd pD && > solutions-check.txt
@@ -47,7 +47,7 @@ pD-check:
 	cd pD && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
 pE-import:
-	cmsImportTask -c 2 ./pE/ -u -S
+	cmsImportTask -c 2 ./pE/ -u
 
 pE-check:
 	cd pE && > solutions-check.txt
@@ -57,11 +57,11 @@ pE-check:
 	cd pE && tps invoke solution/100pt-by-Yazmau.cpp | tee -a solutions-check.txt
 
 import:
-	cmsImportTask -c 2 ./pA/ -u -S
-	cmsImportTask -c 2 ./pB/ -u -S
-	cmsImportTask -c 2 ./pC/ -u -S
-	cmsImportTask -c 2 ./pD/ -u -S
-	cmsImportTask -c 2 ./pE/ -u -S
+	cmsImportTask -c 2 ./pA/ -u
+	cmsImportTask -c 2 ./pB/ -u
+	cmsImportTask -c 2 ./pC/ -u
+	cmsImportTask -c 2 ./pD/ -u
+	cmsImportTask -c 2 ./pE/ -u
 
 merge-pdf:
 	cd pA && tps statement
