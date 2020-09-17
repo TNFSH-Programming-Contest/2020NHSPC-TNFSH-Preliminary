@@ -6,3 +6,5 @@ logs/
 # C binaries
 *.exe
 *.o
+*.class
+pA/solution/Goblin
