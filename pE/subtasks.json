@@ -29,7 +29,7 @@
         },
         "4": {
             "index": 4,
-            "text": "$1 \\le N \\le 10^3,~1 \\le M \\le 5 \\cdot 10^3$",
+            "text": "$1 \\le N \\le 10^3,~1 \\le M \\le 5 \\times 10^3$",
             "score": 29,
             "validators": [
                 "validator-4.cpp"
