@@ -10,9 +10,6 @@
 | D. 大楓樹 | [gen](pD/gen) [manual](pD/gen/manual) | [solution](pD/solution) [check](pD/solutions-check.txt) | [tests](pD/tests) | [statement](pD/statement) [md](pD/statement/index.md) [pdf](pD/statement/index.pdf) | [validator](pD/validator) | [problem](pD/problem.json) [solutions](pD/solutions.json) [subtasks](pD/subtasks.json) |
 | E. 熊本 | [gen](pE/gen) [manual](pE/gen/manual) | [solution](pE/solution) [check](pE/solutions-check.txt) | [tests](pE/tests) | [statement](pE/statement) [md](pE/statement/index.md) [pdf](pE/statement/index.pdf) | [validator](pE/validator) | [problem](pE/problem.json) [solutions](pE/solutions.json) [subtasks](pE/subtasks.json) |
 
- - [工作表](https://docs.google.com/spreadsheets/d/17PEQ_oS-DcYYq6Zb1K1xCGgk_Umw7lpL8D0ZURFSp80)
- - [初選題目](https://docs.google.com/document/d/1xUPYwP8rxR3-N-Q-A6PHnxAtn-7uoDqC3eyu7C5xjxg)
-
 ## 資料夾結構
 每題中包含以下目錄和檔案：
  - checker: 檢查輸出與標準答案是否相等的程式
