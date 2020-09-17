@@ -17,7 +17,13 @@ script:
   - cd ..
   - make statement
   - make merge-pdf
-  - cp problems.pdf statement/problems.pdf
+  - mkdir -p statement
+  - cp pA/statement/index.pdf statement/pA.pdf
+  - cp pB/statement/index.pdf statement/pB.pdf
+  - cp pC/statement/index.pdf statement/pC.pdf
+  - cp pD/statement/index.pdf statement/pD.pdf
+  - cp pE/statement/index.pdf statement/pE.pdf
+  - cp pA/attachments/problems.pdf statement/problems.pdf
 cache:
   directories:
     - ~/.fonts/
