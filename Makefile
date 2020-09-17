@@ -64,9 +64,14 @@ import:
 	cmsImportTask -c 2 ./pE/ -u -S
 
 merge-pdf:
-	pdfunite pA/statement/index.pdf pB/statement/index.pdf pC/statement/index.pdf pD/statement/index.pdf pE/statement/index.pdf problems.pdf
-	# mkdir -p pA/attachments
-	# cp problems.pdf pA/attachments
+	cd pA && tps statement
+	pdfunite cover.pdf pA/statement/index.pdf pB/statement/index.pdf pC/statement/index.pdf pD/statement/index.pdf pE/statement/index.pdf problems.pdf
+	exiftool -Title="2020臺南一中資訊學科能力競賽校內初選試題本" -overwrite_original problems.pdf
+	pdfunite cover.pdf pA/statement/index.pdf pA/statement/cover-and-pA.pdf
+	mkdir -p pA/attachments
+	mv problems.pdf pA/attachments
+	rm pA/statement/index.pdf
+	mv pA/statement/cover-and-pA.pdf pA/statement/index.pdf
 	# cmsImportTask -c 2 ./pA/ -u/
 
 pA-statement:
@@ -85,14 +90,8 @@ pE-statement:
 	cd pE && tps statement
 
 statement:
-	if [ ! -d statement ]; then mkdir statement; fi
 	cd pA && tps statement
 	cd pB && tps statement
 	cd pC && tps statement
 	cd pD && tps statement
 	cd pE && tps statement
-	cp pA/statement/index.pdf statement/pA.pdf
-	cp pB/statement/index.pdf statement/pB.pdf
-	cp pC/statement/index.pdf statement/pC.pdf
-	cp pD/statement/index.pdf statement/pD.pdf
-	cp pE/statement/index.pdf statement/pE.pdf
