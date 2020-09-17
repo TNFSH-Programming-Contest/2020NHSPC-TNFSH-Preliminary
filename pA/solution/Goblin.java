@@ -4,22 +4,24 @@ import java.io.*;
 import java.util.Scanner;
 
 class Goblin {
-    public static void main(String[] args) {
-		Scanner myInput = new Scanner( System.in );
+    public static void main(String[] args) throws IOException {
+		BufferedReader reader =new BufferedReader(new InputStreamReader(System.in));
 
-		long n = myInput.nextLong();
+		long n = Integer.parseInt(reader.readLine());
 		long ans = 0;
 		long a, b, c;
+		String[] temp = reader.readLine().split(" ");
 		for(int q=0; q<n; q++){
-			a = myInput.nextLong();
+			a = Integer.parseInt(temp[q]);
 			ans+=a;
 		}
-		n = myInput.nextLong();
+		n = Integer.parseInt(reader.readLine());
 		for(int q=0; q<n; q++){
-			a = myInput.nextLong();
-			b = myInput.nextLong();
-			c = myInput.nextLong();
-			ans+=(b - a + 1) * c;
+			String[] temp2 = reader.readLine().split(" ");
+			a = Integer.parseInt(temp2[0]);
+			b = Integer.parseInt(temp2[1]);
+			c = Integer.parseInt(temp2[2]);
+			ans+=((long)b - a + 1) * c;
 			System.out.printf("%d\n", ans);
 		}
 
