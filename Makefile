@@ -66,7 +66,7 @@ import:
 merge-pdf:
 	cd pA && tps statement
 	pdfunite cover.pdf pA/statement/index.pdf pB/statement/index.pdf pC/statement/index.pdf pD/statement/index.pdf pE/statement/index.pdf problems.pdf
-	exiftool -Title="2020臺南一中資訊學科能力競賽校內初選試題本" -overwrite_original problems.pdf
+	exiftool -Title="109學年度資訊學科能力競賽臺南一中校內初選試題本" -overwrite_original problems.pdf
 	pdfunite cover.pdf pA/statement/index.pdf pA/statement/cover-and-pA.pdf
 	mkdir -p pA/attachments
 	mv problems.pdf pA/attachments

@@ -1,5 +1,5 @@
 # 2020NHSPC-TNFSH-Preliminary 
-2020臺南一中資訊學科能力競賽校內初選
+109學年度資訊學科能力競賽臺南一中校內初選
 
 ## Quick Links
 | ID | gen | solution | tests | statement | validator | config |
